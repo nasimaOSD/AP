@@ -1,0 +1,132 @@
+@import url(main.css);
+
+
+    /*Gellerry seciton photo*/
+
+.project{
+    height: 616px; 
+    background-color:#461959;
+ }
+ .project1{
+     display: flex;
+ }
+ .project1 img{
+     height: 240px;
+     width: 240px;
+     margin-left: 35px;
+     margin-top: 40px;
+     border-radius: 10px;
+ }
+ .img1:hover{
+    transition:2s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+ }
+ .project2{
+     display: flex;
+ }
+ .project2 img{
+     height: 240px;
+     width: 240px;
+     margin-left: 35px;
+     margin-top: 40px;
+     border-radius: 10px;
+ }
+ 
+
+/* Contact */
+
+.contact_head{
+  
+    position: absolute;
+    left: 48%;
+    top: 3450px;
+    text-decoration: underline #D9D9D9;
+    color: var(--buttonColor);
+        
+    
+    
+}
+i{
+    display: inline;
+    padding-right: 20px;
+    
+
+}
+.contact{
+    width: inherit;
+    height: 800px;
+    background-color: var(--secondDiv);
+    padding: 0 50px;
+    color: var(--buttonColor);
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.info{
+    width: 350px;
+    height: 250px;
+}
+
+.phone, .inbox,.tele{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* From */
+.form{
+  width: 657px;
+  height: 380px;
+  
+}
+
+input ,textarea{
+ display: block;
+ background-color: var(--primaryDiv);
+ width: 655px;
+ height: 40px;
+ margin: 20px;
+ border-radius: 20px;
+}
+
+input::placeholder,textarea::placeholder{
+    color: var(--buttonColor);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px;
+    /* letter-spacing: 4px; */
+    outline: none;
+    border: none ;
+  
+
+}
+input:focus, textarea:focus{
+    background-color: var(--buttonColor);
+    padding: 20px;
+}
+
+textarea{
+    height: 148px;
+}
+
+input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin: auto;
+    color: var(--buttonColor);
+}
+input[type="submit"]:hover{
+    background-color: rgb(214, 129, 129);
+    color: aqua;
+}
+
+/* fot */
+footer{
+    background-color:#170550 ; text-align: center; color: white;font-size: 22px; padding: 20px;
+}
